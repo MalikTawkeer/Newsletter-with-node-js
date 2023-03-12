@@ -44,7 +44,7 @@ app.post("/", function (request, res) {
 
     const options = {
         method: "POST",
-        auth: "malik:b6d68bffeada0479efce73eb22d71385-us10"
+        auth: "malik:b6d68bffead..................eb22d71385-us10"
     }
 
     const re = https.request(url, options, function(response){
@@ -78,7 +78,7 @@ app.listen(process.env.PORT || 3000, function () {
 });
 
 //api
-//b6d68bffeada0479efce73eb22d71385-us10
+//b6d68bffeada0479............................73eb22d71385-us10
 
 
 //list id
